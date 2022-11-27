@@ -1,0 +1,341 @@
+body{
+    background-color: #ffff;
+}
+
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    letter-spacing: 1px;
+    color: #646464;
+}
+
+.content{
+    width: 1110px;
+    margin: auto;
+}
+
+h1{
+    font-family: 'Arial, Helvetica, sans-serif';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 3px;
+
+    color: #FFFFFF;
+}
+
+#slogan {
+    font-size: 28px;
+}
+
+h2{
+    font-family: 'Arial, Helvetica, sans-serif';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    /* identical to box height, or 108% */
+
+    letter-spacing: 5px;
+
+    color: #0596E7;
+}
+
+h3{
+    font-family: 'Arial, Helvetica, sans-serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height, or 130% */
+    
+    letter-spacing: 2px;
+
+    color: #0596E7;
+
+    margin-bottom: 10px;
+}
+
+
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #FFFFFF;
+    filter: drop-shadow(0px 8px 5px #0592E0);
+
+    
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.limit{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header img{
+    width: 187px;
+    height: 45px;
+    margin-top: 14px;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: 'Arial, Helvetica, sans-serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 1.07px;
+    
+    color: #0596E7;
+
+}
+nav{
+    width: 315px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.banner{
+    height: 584px;
+    width: 100%;
+    
+    background-image: url("../img/Rectangle 9.jpg");
+
+}
+
+.banner .content{
+    height: 584px;
+    padding-top: 210px;
+}
+
+.line1{
+    width: 784px;
+    height: 1.5px;
+    background-color: #FFFFFF;
+    margin: auto;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 145px;
+}
+
+.about .h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.about img{
+    width: 454px;
+    margin-top: -60px;
+}
+
+.about .display{
+    width: 512px;
+    margin: 78px;
+
+}
+
+.about p{
+    margin-bottom: 0px;
+
+}
+
+.serve{
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(216, 255, 252, 0.2) 100%);
+    height: 1537px;
+}
+
+.serve .title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    padding-top: 100px;
+}
+
+.serve .one{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.serve .one .left{
+    width: 585px;
+    height: 228px;
+    margin: auto;
+    margin-left: 0%;
+}
+
+.serve .one .right{
+    margin-right: -210px;
+}
+.serve .one .right img{
+    border-radius: 190px 0px 0px 0px;
+}
+
+.serve .two{
+    display: flex;
+    justify-content: space-between;
+} 
+
+.serve .two .left{
+    margin-left: -210px;
+}
+
+.serve .two .left img{
+    border-radius: 0px 190px 0px 0px;
+
+}
+
+.serve .two .right{
+    width: 599px;
+    height: 238px;
+    margin: auto;
+    margin-right: 0%;
+}
+
+
+.serve .three{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.serve .three .left{
+    width: 616px;
+    height: 278px;
+    margin: auto;
+    margin-left: 0px;
+}
+.serve .three .left .top{
+    margin-bottom: 30px;
+}
+
+.serve .three .right{
+    margin-right: -210px;
+}
+.serve .three .right img{
+    border-radius: 190px 0px 0px 0px;
+}
+
+.serve .four a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 4px;
+    color: #ffff;
+    text-shadow: 0px 1px 4px #a1a1a1;
+
+    padding: 13px 35px 13px 35px;
+    background-color: #80D0C7;
+    border-radius: 73px;
+}
+
+.serve .four{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.interduce .title{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.interduce .one{
+    display: flex;
+    justify-content: space-between;
+}
+
+.interduce .one .left{
+    margin-left: -210px;
+}
+.interduce .one .left img{
+    border-radius: 0px 190px 0px 0px;
+}
+
+.interduce .one .right{
+    width: 590px;
+    margin: auto;
+    margin-right: 0%;
+}
+
+.interduce .two{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.interduce .two .left{
+    width: 590px;
+    margin: auto;
+    margin-left: 0%;
+}
+
+.interduce .two .right{
+    margin-right: -210px;
+}
+
+.interduce .two .right img{
+    border-radius: 190px 0px 0px 0px;
+}
+
+/*表單位置
+
+
+*/
+
+.footer{
+   background: linear-gradient(90deg, #0596E7 0%, #0596E7 0.01%, #80D0C7 100%);
+   height: 276px;
+}
+
+.footer p{
+    color:#ffff;
+}
+
+.footer .right img{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.footer .content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 62px;
+}
+.footer .content  {
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer .line{
+    width: 100%;
+    height: 1px;
+    background-color: #ffff;
+    margin: 55px 0px 20px 0px;
+}
+
+.cr{
+    display: flex;
+    justify-content: center;
+}
